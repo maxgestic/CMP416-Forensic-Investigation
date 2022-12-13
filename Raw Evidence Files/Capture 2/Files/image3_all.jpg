@@ -1,0 +1,6 @@
+echo "Start"
+cd image3
+while read p; do
+	echo "${p}"
+	cat condone.jpg American.jpg web-based.jpg ../comb/${p}.jpg | /Users/maximilianring/.iterm2/imgcat -W 50
+done <../list_of_words.txt
