@@ -1,0 +1,154 @@
+# Original Document Contents
+```
+IlByb3RlY3QgWWEgTmVjayINCiJTbyB3aGF0J3MgdXAgbWFuPw0KQ29vbGluZyBtYW4iDQoiQ2hpbGxpbmcgY2hpbGxpbmc/Ig0KIllvIHlvdSBrbm93IEkgaGFkIHRvIGNhbGwsIHlvdSBrbm93IHdoeSByaWdodD8iDQoiV2h5PyINCiJCZWNhdXNlLCB5bywgSSBuZXZlciBldmVyIGNhbGwgYW5kIGFzaywgeW91IHRvIHBsYXkgc29tZXRoaW5nIHJpZ2h0PyINCiJZZWFoIg0KIllvdSBrbm93IHdoYXQgSSB3YW5uYSBoZWFyIHJpZ2h0PyINCiJXaGF0IHlvdSB3YW5uYSBoZWFyPw0KSSB3YW5uYSBoZWFyIHRoYXQgV3UtVGFuZyBqb2ludCINCiJXdS1UYW5nIGFnYWluPyINCiJBaCB5ZWFoLCBhZ2FpbiBhbmQgYWdhaW4hIg0KDQpbc291bmRzIG9mIGZpZ2h0aW5nXQ0KDQpbUlpBXSBXdS1UYW5nIENsYW4gY29taW5nIGF0IHlvdSwgcHJvdGVjdCB5b3VyIG5lY2sga2lkLCBzbyBzZXQgaXQgb2ZmIHRoZSBJbnNwZWN0b3IgRGVjaw0KW01ldGhdIHdhdGNoIHlvdXIgc3RlcCBraWQgWzhYXQ0KDQpbSW5zcGVjdG9yIERlY2tdDQpJIHNtb2tlIG9uIHRoZSBtaWMgbGlrZSBzbW9raW5nIEpvZSBGcmF6aWVyDQpUaGUgaGVsbCByYWlzZXIsIHJhaXNpbmcgaGVsbCB3aXRoIHRoZSBmbGF2b3INClRlcnJvcml6ZSB0aGUgamFtIGxpa2UgdHJvb3BzIGluIFBha2lzdGFuDQpTd2luZ2luZyB0aHJvdWdoIHlvdXIgdG93biBsaWtlIHlvdXIgbmVpZ2hib3Job29kIFNwaWRlcm1hbg0KU28gdWhoLCB0aWMgdG9jIGFuZCBrZWVwIHRpY2tpbmcNCldoaWxlIEkgZ2V0IHlvdSBmbGlwcGluZyBvZmYgdGhlIHNoaXQgSSdtIGtpY2tpbmcNClRoZSBMb25lIFJhbmdlciwgY29kZSByZWQsIGRhbmdlciENCkRlZXAgaW4gdGhlIGRhcmsgd2l0aCB0aGUgYXJ0IHRvIHJpcCBjaGFydHMgYXBhcnQNClRoZSB2YW5kYWwsIHRvbyBob3QgdG8gaGFuZGxlDQp5b3UgYmF0dGxlLCB5b3UncmUgc2F5aW5nIEdvb2RieWUgbGlrZSBUZXZpbiBDYW1wYmVsbA0KUm91Z2huZWNrLCBJbnNwZWN0b3IgRGVjaydzIG9uIHRoZSBzZXQNClRoZSByZWJlbCwgSSBtYWtlIG1vcmUgbm9pc2UgdGhhbiBoZWF2eSBtZXRhbA0KDQpbUmFla3dvbl0NClRoZSB3YXkgSSBtYWtlIHRoZSBjcm93ZCBnbyB3aWxkLCBzaXQgYmFjayByZWxheCB3b24ndCBzbWlsZQ0KUmFlIGdvdCBpdCBnb2luZyBvbiBwYWwsIGNhbGwgbWUgdGhlIHJhcCBhc3Nhc3NpbmF0b3INClJoeW1lcyBydWdnZWQgYW5kIGJ1aWx0IGxpa2UgU2Nod2FyemVuZWdnZXINCkFuZCBJJ20gZ29ubmEgZ2V0IG1hZCBkZWVwIGxpa2UgYSB0aHJlYXQsIGJsb3cgdXAgeW91ciBwcm9qZWN0DQpUaGVuIHRha2UgYWxsIHlvdXIgYXNzZXRzDQpDYXVzZSBJIGNhbWUgdG8gc2hha2UgdGhlIGZyYW1lIGluIGhhbGYNCldpdGggdGhlIHRob3VnaHRzIHRoYXQgYm9tYiwgc2hpdCBsaWtlIG1hdGghDQpTbyBpZiB5b3Ugd2FubmEgdHJ5IHRvIGZsaXAgZ28gZmxpcCBvbiB0aGUgbmV4dCBtYW4NCkNhdXNlIEkgZ3JhYiB0aGUgY2xpcCBhbmQNCkhpdCB5b3Ugd2l0aCBzaXh0ZWVuIHNob3RzIGFuZCBtb3JlIEkgZ290DQpHb2luZyB0byB3YXIgd2l0aCB0aGUgbWVsdGluZyBwb3QgaG90DQoNCltNZXRob2RdDQpJdCdzIHRoZSBNZXRob2QgTWFuIGZvciBzaG9ydCBNci4gTWV0aA0KTW92aW5nIG9uIHlvdXIgbGVmdCwgYWghDQpBbmQgc2V0IGl0IG9mZiwgZ2V0IGl0IG9mZiwgbGV0IGl0IG9mZiBsaWtlIGEgZ2F0DQpJIHdhbm5hIGJyZWFrIGZ1bGwsIGNvY2sgbWUgYmFjaw0KU21hbGwgY2hhbmdlLCB0aGV5IHB1dHRpbmcgc2hhbWUgaW4gdGhlIGdhbWUNCkkgdGFrZSBhaW0gYW5kIGJsb3cgdGhhdCBuaWdnYSBvdXQgdGhlIGZyYW1lDQpBbmQgbGlrZSBGYW1lLCBteSBzdHlsZSdsbCBsaXZlIGZvcmV2ZXINCk5pZ2dheiBjcm9zc2luZyBvdmVyLCBidXQgdGhleSBkb24ndCBrbm93IG5vIGJldHRlcg0KQnV0IEkgZG8sIHRydWUsIGNhbiBJIGdldCBhICJzdWUiDQpOdWZmIHJlc3BlY3QgZHVlIHRvIHRoZSBvbmUtc2l4LW9oDQpJIG1lYW4gb2gsIHlvdSBjaGVjayBvdXQgdGhlIGZsb3cNCmxpa2UgdGhlIEh1ZHNvbiBvciBQQ1Agd2hlbiBJJ20gZHVzdGluZw0KTmlnZ2F6IG9mZiBiZWNhdXNlIEknbSBob3QgbGlrZSBzYXVjZQ0KVGhlIHNtb2tlIGZyb20gdGhlIGx5cmljYWwgYmx1bnQgbWFrZXMgbWUgW2NvdWdoXQ0KDQpbVS1Hb2RdDQpPaCwgd2hhdCwgZ3JhYiBteSBudXQgZ2V0IHNjcmV3ZWQNCk93LCBoZXJlIGNvbWVzIG15IFNoYW9saW4gc3R5bGUNClNsb29wLCBCLiBBLiBCdWgtQi4gWS4gVQ0KdG8gbXkgY3JldyB3aXRoIHRoZSAic3VlIg0KDQpbSW50ZXJsdWRlXQ0Kd2F0Y2ggeW91ciBzdGVwIGtpZCBbOFhdDQpbT2wgRGlydHkgQmFzdGFyZF0gYydtb24gYmFieSBiYWJ5IGMnbW9uIFs0WF0NCltSWkFdIFlvLCB5b3UgYmVzdCBwcm90ZWN0IHlvdXIgbmVjaw0KDQpbT2wgRGlydHkgQmFzdGFyZF0NCkZpcnN0IHRoaW5ncyBmaXJzdCBtYW4geW91J3JlIGZ1Y2tpbmcgd2l0aCB0aGUgd29yc3QNCkknbGwgYmUgc3RpY2tpbmcgcGlucyBpbiB5b3VyIGhlYWQgbGlrZSBhIGZ1Y2tpbmcgbnVyc2UNCkknbGwgYXR0YWNrIGFueSBuaWdnYSB3aG8ncyBzbGFjayBpbiBoaXMgbWFjaw0KQ29tZSBmdWxseSBwYWNrZWQgd2l0aCBhIGZhdCBydWdnZWQgc3RhY2sNClNoYW1lIG9uIHlvdSB3aGVuIHlvdSBzdGVwcGVkIHRocm91Z2ggdG8NClRoZSBPbCBEaXJ0eSBCYXN0YXJkIHN0cmFpZ2h0IGZyb20gdGhlIEJyb29rbHluIFpvbw0KQW5kIEknbGwgYmUgZGFtbmVkIGlmIEkgbGV0IGFueSBtYW4NCkNvbWUgdG8gbXkgY2VudGVyLCB5b3UgZW50ZXIgdGhlIHdpbnRlcg0KU3RyYWlnaHQgdXAgYW5kIGRvd24gdGhhdCBzaGl0IHBhY2tlZCBqYW0NCllvdSBjYW4ndCBzbGFtLCBkb24ndCBsZXQgbWUgZ2V0IGZvb2wgb24gaGltIG1hbg0KVGhlIE9sIERpcnR5IEJhc3RhcmQgaXMgZGlydHkgYW5kIHN0aW5raW5nDQpBc29uLCB1bmlxdWUgcm9sbGluZyB3aXRoIHRoZSBuaWdodCBvZiB0aGUgY3JlZXBzDQpOaWdnYXogYmUgcm9sbGluZyB3aXRoIGEgc3Rhc2gNCmFpbid0IHNheWluZyBjYXNoLCBiaXRlIG15IHN0eWxlIEknbGwgYml0ZSB5b3VyIG1vdGhlcmZ1Y2tpbmcgYXNzIQ0KDQpbR2hvc3RmYWNlIEtpbGxhaF0NCkZvciBjcnlpbmcgb3V0IGxvdWQgbXkgc3R5bGUgaXMgd2lsZCBzbyBib29rIG1lDQpOb3QgbG9uZyBpcyBob3cgbG9uZyB0aGF0IHRoaXMgcmh5bWUgdG9vayBtZQ0KRWplY3RpbmcsIHN0eWxlcyBmcm9tIG15IGxldGhhbCB3ZWFwb24NCk15IHBlbiB0aGF0IHJvY2tzIGZyb20gaGVyZSB0byBPcmVnb24NCkhlcmUncyBNb3JkaWdhbiwgY2F0Y2ggaXQgbGlrZSBhIHBzeWNobyBmbGFzaGJhY2sNCkkgbG92ZSBnYXRzLCBpZiByYXAgd2FzIGEgZ3VuLCB5b3Ugd291bGRuJ3QgYnVzdCBiYWNrDQpJIGNvbWUgd2l0aCBzaGl0IHRoYXQncyBhbGwgdHlwZXMgb2Ygc2hhcGVzIGFuZCBzb3VuZHMNCkFuZCB3aGVyZSBJIGxvdW5nZSBpcyBteSBzdG9tcGluZyBncm91bmRzDQpJIGdpdmUgYSBvcmRlciB0byBteSBwZWVwcyBhY3Jvc3MgdGhlIHdhdGVyDQpUbyBnbyBhbmQgc25hdGNoIHVwIHByb3BzIGFsbCBhcm91bmQgdGhlIGJvcmRlcg0KQW5kIGdldCBmYXIgbGlrZSBhIHNob290aW5nIHN0YXINCidjYXVzZSB3aG8gSSBhbSBpcyBkaW0gaW4gdGhlIGxpZ2h0IG9mIFBhYmxvIEVzY29iYXINClBvaW50IGJsYW5rIGFzIEkga2ljayB0aGUgc3F1YXJlIGJpeg0KVGhlcmUgaXQgaXMgeW91J3JlIGZ1Y2tpbmcgd2l0aCBwcm9zIGFuZCB0aGVyZSBpdCBnb2VzDQoNCltSWkFdDQpZb3UgY2hpbGwgd2l0aCB0aGUgZmVlZGJhY2sgYmxhY2sgd2UgZG9uJ3QgbmVlZCB0aGF0DQpJdCdzIHRlbiBvJ2Nsb2NrIGhvZSwgd2hlcmUgdGhlIGZ1Y2sncyB5b3VyIHNlZWQgYXQ/DQpGZWVsaW5nIG1hZCBob3N0aWxlLCByYW4gdGhlIGFwb3N0bGUNCkZsb3dpbmcgbGlrZSBDaHJpc3Qgd2hlbiBJIHNwZWFrcyB0aGUgZ29zcGVsDQpTdHJvbGwgd2l0aCB0aGUgaG9seSByb2xsIHRoZW4gYXR0YWNrIHRoZSBnbG9iZSB3aXRoIHRoZSBidWNrdXMgc3R5bGUNCnRoZSBydWNrdXMsIHRlbiB0aW1lcyB0ZW4gbWVuIGNvbW1pdHRpbmcgbWFkIHNpbg0KVHVybiB0aGUgb3RoZXIgY2hlZWsgYW5kIEknbGwgYnJlYWsgeW91ciBmdWNraW5nIGNoaW4NClNsYXlpbmcgYm9vbS1iYW5ncyBsaWtlIEFmcmljYW4gZHJ1bXMgKHdlJ2xsIGJlKQ0KQ29taW5nIGFyb3VuZCB0aGUgbW91bnRhaW4gd2hlbiBJIGNvbWUNCkNyYXp5IGZsYW1ib3lhbnQgZm9yIHRoZSByYXAgZW5qb3ltZW50DQpNeSBjbGFuIGluY3JlYXNlIGxpa2UgYmxhY2sgdW5lbXBsb3ltZW50DQpZZWFoLCBhbm90aGVyIG9uZSBkYXJlLA0KVHVoLXRvb2sgYSBnZW5pdXMgKHRvKSB0YWtlIHVzIHRoZSBmdWNrIG91dHRhIGhlcmUNCg0KW0dlbml1c10NClRoZSBXdSBpcyB0b28gc2xhbW1pbmcgZm9yIHRoZXNlIENvbGQgS2lsbGluZyBsYWJlbHMNClNvbWUgYWluJ3QgaGFkIGhpdHMgc2luY2UgSSBzZWVuIEF1bnQgTWFiZWwNCkJlIGRvaW5nIGFydGlzdHMgaW4gbGlrZSBDYWluIGRpZCBBYmVsDQpOb3cgdGhleSBtb25leSdzIGdldHRpbiBzdHVjayB0byB0aGUgZ3VtIHVuZGVyIHRoZSB0YWJsZQ0KVGhhdCdzIHdoYXQgeW91IGdldCB3aGVuIHlvdSBtaXN1c2Ugd2hhdCBJIGludmVudA0KWW91ciBlbXBpcmUgZmFsbHMgYW5kIHlvdSBsb3NlIGV2ZXJ5IGNlbnQNCkZvciB0cnlpbmcgdG8gYmxvdyB1cCBhIHNjcnViDQpOb3cgdGhhdCB0aG91Z2h0IHdhcyBqdXN0IGFzIGJyaWdodCBhcyBhIDIwLXdhdHQgbGlnaHQgYnVsYg0KU2hvdWxkJ3ZlIHB1bXBlZCBpdCB3aGVuIEkgcm9ja2VkIGl0DQpOaWdnYXogc28gc3Rpbmd5IHRoZXkgZ290IHNob3J0IGFybXMgYW5kIGRlZXAgcG9ja2V0cw0KVGhpcyBnb2VzIG9uIGluIHNvbWUgY29tcGFuaWVzDQpXaXRoIG1ham9ycyB0aGV5J3JlIHNjYXJlZCB0byBkZWF0aCB0byBwdW1wIHRoZXNlDQpGaXJzdCBvZiBhbGwsIHdobydzIHlvdXIgQSZSDQpBIG1vdW50YWluIGNsaW1iZXIgd2hvIHBsYXlzIGFuIGVsZWN0cmljIGd1aXRhcg0KQnV0IGhlIGRvbid0IGtub3cgdGhlIG1lYW5pbmcgb2YgZG9wZQ0KV2hlbiBoZSdzIGxvb2tpbmcgZm9yIGEgc3VpdCBhbmQgdGllIHJhcA0KdGhhdCdzIGNsZWFuZXIgdGhhbiBhIGJhciBvZiBzb2FwDQpBbmQgSSdtIHRoZSBkaXJ0aWVzdCB0aGluZyBpbiBzaWdodA0KTWF0dGVyIG9mIGZhY3QgYnJpbmcgb3V0IHRoZSBnaXJscyBhbmQgbGV0J3MgaGF2ZSBhIG11ZCBmaWdodA0KDQpbc291bmRzIG9mIGZpZ2h0aW5nXQ0KDQpbUlpBXSBZb3UgYmVzdCBwcm90ZWN0IHlvdXIgbmVjayBbNFhdDQoNCg==
+```
+
+# B64 Decoded
+```
+"Protect Ya Neck"
+"So what's up man?
+Cooling man"
+"Chilling chilling?"
+"Yo you know I had to call, you know why right?"
+"Why?"
+"Because, yo, I never ever call and ask, you to play something right?"
+"Yeah"
+"You know what I wanna hear right?"
+"What you wanna hear?
+I wanna hear that Wu-Tang joint"
+"Wu-Tang again?"
+"Ah yeah, again and again!"
+
+[sounds of fighting]
+
+[RZA] Wu-Tang Clan coming at you, protect your neck kid, so set it off the Inspector Deck
+[Meth] watch your step kid [8X]
+
+[Inspector Deck]
+I smoke on the mic like smoking Joe Frazier
+The hell raiser, raising hell with the flavor
+Terrorize the jam like troops in Pakistan
+Swinging through your town like your neighborhood Spiderman
+So uhh, tic toc and keep ticking
+While I get you flipping off the shit I'm kicking
+The Lone Ranger, code red, danger!
+Deep in the dark with the art to rip charts apart
+The vandal, too hot to handle
+you battle, you're saying Goodbye like Tevin Campbell
+Roughneck, Inspector Deck's on the set
+The rebel, I make more noise than heavy metal
+
+[Raekwon]
+The way I make the crowd go wild, sit back relax won't smile
+Rae got it going on pal, call me the rap assassinator
+Rhymes rugged and built like Schwarzenegger
+And I'm gonna get mad deep like a threat, blow up your project
+Then take all your assets
+Cause I came to shake the frame in half
+With the thoughts that bomb, shit like math!
+So if you wanna try to flip go flip on the next man
+Cause I grab the clip and
+Hit you with sixteen shots and more I got
+Going to war with the melting pot hot
+
+[Method]
+It's the Method Man for short Mr. Meth
+Moving on your left, ah!
+And set it off, get it off, let it off like a gat
+I wanna break full, cock me back
+Small change, they putting shame in the game
+I take aim and blow that nigga out the frame
+And like Fame, my style'll live forever
+Niggaz crossing over, but they don't know no better
+But I do, true, can I get a "sue"
+Nuff respect due to the one-six-oh
+I mean oh, you check out the flow
+like the Hudson or PCP when I'm dusting
+Niggaz off because I'm hot like sauce
+The smoke from the lyrical blunt makes me [cough]
+
+[U-God]
+Oh, what, grab my nut get screwed
+Ow, here comes my Shaolin style
+Sloop, B. A. Buh-B. Y. U
+to my crew with the "sue"
+
+[Interlude]
+watch your step kid [8X]
+[Ol Dirty Bastard] c'mon baby baby c'mon [4X]
+[RZA] Yo, you best protect your neck
+
+[Ol Dirty Bastard]
+First things first man you're fucking with the worst
+I'll be sticking pins in your head like a fucking nurse
+I'll attack any nigga who's slack in his mack
+Come fully packed with a fat rugged stack
+Shame on you when you stepped through to
+The Ol Dirty Bastard straight from the Brooklyn Zoo
+And I'll be damned if I let any man
+Come to my center, you enter the winter
+Straight up and down that shit packed jam
+You can't slam, don't let me get fool on him man
+The Ol Dirty Bastard is dirty and stinking
+Ason, unique rolling with the night of the creeps
+Niggaz be rolling with a stash
+ain't saying cash, bite my style I'll bite your motherfucking ass!
+
+[Ghostface Killah]
+For crying out loud my style is wild so book me
+Not long is how long that this rhyme took me
+Ejecting, styles from my lethal weapon
+My pen that rocks from here to Oregon
+Here's Mordigan, catch it like a psycho flashback
+I love gats, if rap was a gun, you wouldn't bust back
+I come with shit that's all types of shapes and sounds
+And where I lounge is my stomping grounds
+I give a order to my peeps across the water
+To go and snatch up props all around the border
+And get far like a shooting star
+'cause who I am is dim in the light of Pablo Escobar
+Point blank as I kick the square biz
+There it is you're fucking with pros and there it goes
+
+[RZA]
+You chill with the feedback black we don't need that
+It's ten o'clock hoe, where the fuck's your seed at?
+Feeling mad hostile, ran the apostle
+Flowing like Christ when I speaks the gospel
+Stroll with the holy roll then attack the globe with the buckus style
+the ruckus, ten times ten men committing mad sin
+Turn the other cheek and I'll break your fucking chin
+Slaying boom-bangs like African drums (we'll be)
+Coming around the mountain when I come
+Crazy flamboyant for the rap enjoyment
+My clan increase like black unemployment
+Yeah, another one dare,
+Tuh-took a genius (to) take us the fuck outta here
+
+[Genius]
+The Wu is too slamming for these Cold Killing labels
+Some ain't had hits since I seen Aunt Mabel
+Be doing artists in like Cain did Abel
+Now they money's gettin stuck to the gum under the table
+That's what you get when you misuse what I invent
+Your empire falls and you lose every cent
+For trying to blow up a scrub
+Now that thought was just as bright as a 20-watt light bulb
+Should've pumped it when I rocked it
+Niggaz so stingy they got short arms and deep pockets
+This goes on in some companies
+With majors they're scared to death to pump these
+First of all, who's your A&R
+A mountain climber who plays an electric guitar
+But he don't know the meaning of dope
+When he's looking for a suit and tie rap
+that's cleaner than a bar of soap
+And I'm the dirtiest thing in sight
+Matter of fact bring out the girls and let's have a mud fight
+
+[sounds of fighting]
+
+[RZA] You best protect your neck [4X]
+
+
+```
